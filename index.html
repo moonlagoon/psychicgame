@@ -1,31 +1,32 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./assets/css/style.css">
+    
 
-    <title>Number guessing game</title>
+  <title>Psychic Game</title>
+</head>
 
-    <link rel="stylesheet" href="">
+<body>
+  <div id="psychicgame">
+    
+    <h1>Thinking of a letter A-Z:</h1>
 
-  </head>
-
-  <body>
-    <div class="container">
-      <h1>Number guessing game</h1>
-<p id="guesses"></p>
-<p id="lastResult"></p>
-
-<div class="form">
-  <label for="guessText">Enter your next guess: </label><input type="text" id="guessField"> <!--guessFeild-->
-  <button id="submit">Enter</button>
+<div class="container">       
+    <h3 id="winnerWinnerChickenDinner">Win Count: 0</h3>
+    <h3 id="booHooBigOleLose">Lose Count: 0</h3>
 </div>
 
-<p></p>
+<div class="container2">
+    <h3 id="remainingAttempts">Guesses Remaining: 8</h3>
+    <h3 id="lettersGuessed">Guessed Letters: </h3>
 </div>
-  </body>
+
+</body>
+
 <script src="./assets/javascript/main.js"></script>
 
 </html>
